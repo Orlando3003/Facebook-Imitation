@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(240, 242, 245);
+}
+
+.content {
+    height: 450px;
+    margin: 140px 0;
+}
+
+.left-content {
+    width: 480px;
+    margin: 75px 100px 0 265px;
+    vertical-align: top;
+}
+
+.left-content, 
+.right-content {
+    display: inline-block;
+}
+
+h1 {
+    color: rgb(85, 85, 244);
+    font-size: 55px;
+    font-weight: 680;
+}
+
+.left-content p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+form {
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(193, 186, 186);
+    margin: 0 0 30px;
+}
+
+.top-form {
+    padding: 15px 15px 0;
+}
+
+.top-form input {
+    width: 365px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 195, 195);
+    font-size: 17px;
+    text-indent: 15px;
+    font-weight: 400;
+}
+
+.top-form input::placeholder {
+    color: rgb(172, 160, 160);
+}
+
+.top-form input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 3px rgb(161, 161, 255);
+}
+
+.middle-form button {
+    height: 45px;
+    width: 369px;
+    border: none;
+    background-color: rgb(85, 85, 244);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0 0 18px;
+    transition: .2s ease;
+}
+
+.middle-form button:hover {
+    background-color: rgb(98, 98, 248);
+    transition: .2s ease;
+}
+
+.middle-form {
+    width: 369px;
+    border-bottom: 1px solid rgb(215, 195, 195);
+    margin: 0 15px 0;
+    padding: 0 0 25px;
+}
+
+form .middle-form p a {
+    text-decoration: none;
+    color: rgb(85, 85, 244);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+form .middle-form p a:hover {
+    text-decoration: underline;
+}
+
+.bottom-form {
+    width: 190px;
+    margin: 25px 105px 0;
+}
+
+.bottom-form button {
+    height: 45px;
+    width: 190px;
+    border: none;
+    background-color: rgb(128, 174, 35);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .2s ease;
+}
+
+.bottom-form button:hover {
+    background-color: rgb(119, 159, 41);
+    transition: .2s ease;
+}
+
+.right-content p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.right-content p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right-content p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 180px;
+    background-color: white;
+    padding: 30px 0 0 0;
+}
+
+.footer-content {
+    height: 150px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.languages {
+    border-bottom: 1px solid rgb(215, 195, 195);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.languages p {
+    font-weight: 600;
+}
+
+.languages a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
+
+.languages p,
+.languages a {
+    color: gray;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.languages button {
+    height: 20px;
+    width: 25px;
+    color: gray;
+    border: 1px solid rgb(215, 195, 195);
+    cursor: pointer;
+}
+
+.options {
+    margin-bottom: 35px;
+    line-height: 18px;
+}
+
+.options a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 13px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.options a img {
+    height: 15px;
+    width: 15px;
+}
+
+.company-desc {
+    width: 80px;
+}
+
+.company-desc p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+}
